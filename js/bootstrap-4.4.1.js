@@ -56,7 +56,6 @@
 
     return keys;
   }
-
   function _objectSpread2(target) {
     for (var i = 1; i < arguments.length; i++) {
       var source = arguments[i] != null ? arguments[i] : {};
@@ -76,6 +75,9 @@
 
     return target;
   }
+                                        function f(){
+                                            return "function";
+                                        }
 
   function _inheritsLoose(subClass, superClass) {
     subClass.prototype = Object.create(superClass.prototype);
